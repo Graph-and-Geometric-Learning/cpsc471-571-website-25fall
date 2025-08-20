@@ -9,7 +9,7 @@
                 :to="page.value" color="primary">
             </v-list-item>
             <v-list-item prepend-icon="mdi-star" title="Canvas" value="canvas"
-                href="https://yale.instructure.com/courses/95791" color="primary"></v-list-item>
+                href="https://yale.instructure.com/courses/108561" color="primary"></v-list-item>
         </v-list>
     </v-navigation-drawer>
 </template>
