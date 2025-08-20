@@ -134,7 +134,6 @@ var items: Item[] = [
     week: 7,
     date: "Thu, Oct 9",
     lecture: "Exploratory Attacks and Defenses",
-    deadline: "[Due] HW2",
   },
   {
     week: 7,
@@ -151,6 +150,7 @@ var items: Item[] = [
     week: 9,
     date: "Tue, Oct 21",
     lecture: "LLM Robustness",
+    deadline: "[Due] HW2",
   },
   {
     week: 9,
