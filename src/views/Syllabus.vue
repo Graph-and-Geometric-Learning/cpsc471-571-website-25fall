@@ -90,7 +90,7 @@ var items: Item[] = [
   {
     week: 3,
     date: "Thu, Sep 11",
-    lecture: "Excplainability via Surrogate Models",
+    lecture: "Local Explainability",
   },
   {
     week: 4,
@@ -100,7 +100,7 @@ var items: Item[] = [
   {
     week: 4,
     date: "Thu, Sep 18",
-    lecture: "Global Explanability",
+    lecture: "Global Explainability",
   },
   {
     week: 5,
@@ -111,7 +111,7 @@ var items: Item[] = [
     week: 5,
     date: "Thu, Sep 25",
     lecture: "Introduction to Adversarial Attacks",
-    deadline: "[Due] hw1",
+    deadline: "[Due] HW1",
   },
   {
     week: 6,
@@ -134,7 +134,7 @@ var items: Item[] = [
     week: 7,
     date: "Thu, Oct 9",
     lecture: "Exploratory Attacks and Defenses",
-    deadline: "[Due] hw2",
+    deadline: "[Due] HW2",
   },
   {
     week: 7,
@@ -150,7 +150,7 @@ var items: Item[] = [
   {
     week: 9,
     date: "Tue, Oct 21",
-    lecture: "LLM Adversarial Robustness",
+    lecture: "LLM Robustness",
   },
   {
     week: 9,
@@ -193,7 +193,7 @@ var items: Item[] = [
     week: 13,
     date: "Tue, Nov 18",
     lecture: "Fairness in LLMs",
-    deadline: "[Due] hw3",
+    deadline: "[Due] HW3",
   },
   {
     week: 13,
@@ -203,7 +203,7 @@ var items: Item[] = [
   {
     week: 15,
     date: "Tue, Dec 2",
-    lecture: "",
+    lecture: "Revise and Prepare for Exam",
   },
   {
     week: 15,
