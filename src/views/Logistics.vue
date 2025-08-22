@@ -3,9 +3,9 @@
         <v-row>
             <v-col>
                 <v-sheet class="pa-8" elevation="6">
-                    <h1>Welcom to CPSC 471/571!</h1>
+                    <h1>Welcom to CPSC 4710/5710!</h1>
                     <ul>
-                        <li>The classes meets on Tuesday/Thursday 4PM-5:15PM ET, [LOCATION TBA].
+                        <li>The classes meets on Tuesday/Thursday 4PM-5:15PM ET, <a href="https://map.yale.edu/?id=1910#!m/591737?share" target="_blank">DAVIES AUD</a> - Davies Auditorium, Becton Ctr AUD.
                           <ul>
                             <li>Most of the lecture will be in-person.</li>
                             <li>There will be a few guest lectures, some of which might be held remotely.</li>
@@ -80,7 +80,7 @@
                     <h1>Communication</h1>
                     <h2>Ed Discussion</h2>
                     <ul>
-                        <li>Sign up <a href="https://edstem.org/us/courses/54076/discussion/">Ed Discussion</a> with your @yale.edu email.</li>
+                        <li>Sign up <a href="https://edstem.org/us/courses/83811">Ed Discussion</a> with your @yale.edu email.</li>
                         <li>Please participate and help each other, but
                             <ul>
                                 <li>Annotate your questions</li>
@@ -93,7 +93,7 @@
                     <h2>Mailing List</h2>
                     <ul>
                         <li>Teaching staff: <a
-                                href="mailto:">[EMAIL TBA]</a></li>
+                                href="mailto:cpsc471_fall25_staff@googlegroups.com">cpsc471_fall25_staff@googlegroups.com</a></li>
                         <ul>
                           <li>Send email to the mailing list if you have requests or questions (not individual instructor / TA).</li>
                           <li>Only email the instructor if the message is highly private / not related to teaching in general.</li>
