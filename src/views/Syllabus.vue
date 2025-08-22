@@ -136,15 +136,15 @@ var items: Item[] = [
     lecture: "Exploratory Attacks and Defenses",
   },
   {
-    week: 7,
-    date: "Fri, Oct 10",
-    lecture: "No class",
-    deadline: "[Due] Project proposal",
-  },
-  {
     week: 8,
     date: "Tue, Oct 14",
     lecture: "Verification and Robust Reinforecement Learning",
+  },
+    {
+    week: 8,
+    date: "Fri, Oct 17",
+    lecture: "No class",
+    deadline: "[Due] Project proposal",
   },
   {
     week: 9,
@@ -212,7 +212,7 @@ var items: Item[] = [
   },
   {
     week: 16,
-    date: "Mon, Dec 15",
+    date: "Thu, Dec 11",
     lecture: "No class",
     deadline: "[Due] Final project report (strict deadline)",
   },
