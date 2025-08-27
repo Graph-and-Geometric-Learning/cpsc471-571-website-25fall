@@ -10,7 +10,7 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col v-for="p in staff">
+      <v-col v-for="p in staff" :key="p.name">
         <PhotoCard v-bind="p" />
       </v-col>
     </v-row>
@@ -71,22 +71,43 @@ export default defineComponent({
       //   role: "Grader",
       // },
       {
-        name: "Josh Beal",
-        image_src: new URL("../assets/photos/josh_beal.jpg", import.meta.url)
+        name: "Ngoc Bui",
+        image_src: new URL("../assets/photos/ngoc_bui.jpg", import.meta.url)
           .href,
         role: "Teaching Assistant",
       },
       {
-        name: "Derek Dong",
-        image_src: new URL("../assets/photos/derek_dong.jpg", import.meta.url)
+        name: "Rishabh Anand",
+        image_src: new URL("../assets/photos/rishabh_anand.jpg", import.meta.url)
           .href,
-        role: "Undergraduate Learning Assistant",
+        role: "Teaching Assistant",
+        website: "https://rish-16.github.io/"
       },
       {
-        name: "Ngoc Bui",
-        image_src: new URL("../assets/photos/ngoc_bui.jpg", import.meta.url)
+        name: "Leyao Wang",
+        image_src: new URL("../assets/photos/leyao_wang.jpg", import.meta.url)
           .href,
-        role: "Grader",
+        role: "Teaching Assistant",
+        website: "https://lwang-laura.github.io/leyaowang.github.io/"
+      },
+      {
+        name: "Harshit Verma",
+        image_src: new URL("../assets/photos/harshit_verma.jpg", import.meta.url)
+          .href,
+        role: "Teaching Assistant",
+      },
+      {
+        name: "Jeb Cui",
+        image_src: new URL("../assets/photos/jeb_cui.png", import.meta.url)
+          .href,
+        role: "Undergraduate Learning Assistant",
+        website: "https://jebcui.com/"
+      },
+      {
+        name: "Felix Zou",
+        image_src: new URL("../assets/photos/felix_zou.png", import.meta.url)
+          .href,
+        role: "Undergraduate Learning Assistant",
       },
     ],
   }),
