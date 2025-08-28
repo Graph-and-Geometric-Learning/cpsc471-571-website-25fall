@@ -24,7 +24,7 @@
                 <p v-if="item.event" style="color: green; font-size:11pt;">{{ item.event }}</p>
               </td>
               <td><a v-if="item.slide" :href="item.slide">[slide]</a><a v-if="item.record" :href="item.record">[record]</a></td>
-              <td>{{ item.reading }}</td>
+              <td v-html="item.reading"></td>
               <td>
                 <div v-if="item.new_api">
                   <div v-if="item.hw">
@@ -70,6 +70,7 @@ var items: Item[] = [
     date: "Thu, Aug 28",
     lecture: "Introduction to Trustworthy AI",
     slide: import.meta.env.BASE_URL + "01-intro.pdf",
+    reading: '<a href="https://arxiv.org/pdf/2205.03824" target="_blank">AI Sustainability</a>'
   },
   {
     week: 2,
