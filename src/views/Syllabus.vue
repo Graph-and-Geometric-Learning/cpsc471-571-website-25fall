@@ -76,6 +76,8 @@ var items: Item[] = [
     week: 2,
     date: "Tue, Sep 2",
     lecture: "Deep Learning Basics, CNNs, and RNNs",
+    slide: import.meta.env.BASE_URL + "02-basics.pdf",
+    reading: '<a href="http://www.trustworthymachinelearning.com/" target="_blank">Trustworthy Machine Learning Book Chapter 1.1 Defining Trust</a>'
   },
   {
     week: 2,
