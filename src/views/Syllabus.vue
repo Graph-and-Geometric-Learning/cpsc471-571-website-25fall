@@ -83,6 +83,8 @@ var items: Item[] = [
     week: 2,
     date: "Thu, Sep 4",
     lecture: "Transformers and Large Language Models (LLMs)",
+    slide: import.meta.env.BASE_URL + "03-transformers.pdf",
+    reading: '<a href="https://arxiv.org/abs/2401.05561" target="_blank">[2401.05561] TrustLLM: Trustworthiness in Large Language Models</a>'
   },
   {
     week: 3,

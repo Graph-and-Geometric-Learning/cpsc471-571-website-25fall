@@ -3,9 +3,9 @@
         <v-row>
             <v-col>
                 <v-sheet class="pa-8" elevation="6">
-                    <h1>Welcom to CPSC 4710/5710!</h1>
+                    <h1>Welcome to CPSC 4710/5710!</h1>
                     <ul>
-                        <li>The classes meets on Tuesday/Thursday 4PM-5:15PM ET, <a href="https://map.yale.edu/?id=1910#!m/591737?share" target="_blank">DAVIES AUD</a> - Davies Auditorium, Becton Ctr AUD.
+                        <li>The class meets on Tuesday/Thursday 4PM-5:15PM ET, <a href="https://map.yale.edu/?id=1910#!m/591737?share" target="_blank">DAVIES AUD</a> - Davies Auditorium, Becton Ctr AUD.
                           <ul>
                             <li>Most of the lecture will be in-person.</li>
                             <li>There will be a few guest lectures, some of which might be held remotely.</li>
