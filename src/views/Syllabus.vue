@@ -84,14 +84,14 @@ var items: Item[] = [
     date: "Thu, Sep 4",
     lecture: "Transformers and Large Language Models (LLMs)",
     slide: import.meta.env.BASE_URL + "03-transformers.pdf",
-    reading: '<a href="https://arxiv.org/abs/2401.05561" target="_blank">[2401.05561] TrustLLM: Trustworthiness in Large Language Models</a>'
+    reading: '<a href="https://arxiv.org/abs/2401.05561" target="_blank">[2401.05561] TrustLLM: Trustworthiness in Large Language Models</a>',
+    hw: import.meta.env.BASE_URL + "HW1.pdf",
+    new_api: true,
   },
   {
     week: 3,
     date: "Tue, Sep 9",
     lecture: "Explainability of Neural Networks (XAI)",
-    hw: import.meta.env.BASE_URL + "written_hw1_placeholder.zip",
-    new_api: true,
   },
   {
     week: 3,
