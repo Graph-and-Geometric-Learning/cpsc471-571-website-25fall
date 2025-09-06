@@ -6,12 +6,15 @@
                     <h1>Grading</h1>
                     The final grade will be composed of the course project, discussions, exams, and homework.
                     <ul>
-                        <li><b>Homework</b>: 4 Assignments
+                        <li><b>Homework</b>: 7 Assignments
                             <ul>
                                 <li>Written assignment 1 – Explainability</li>
                                 <li>Coding assignment 1 – Explainability</li>
-                                <li>Written assignment 2 – Adversarial Robustness</li>
+                                <li>Written assignment 2 – Explainability and Adversarial Robustness</li>
                                 <li>Coding assignment 2 – Adversarial Robustness</li>
+                                <li>Written assignment 3 – Adversarial Robustness and Verification</li>
+                                <li>Coding assignment 3 – Privacy and Fairness</li>
+                                <li>Written assignment 4 – Privacy and Fairness</li>
                             </ul>
                         </li>
                         <li><b>In-class Exam:</b>
