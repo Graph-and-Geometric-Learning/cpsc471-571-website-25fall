@@ -92,6 +92,8 @@ var items: Item[] = [
     week: 3,
     date: "Tue, Sep 9",
     lecture: "Explainability of Neural Networks (XAI)",
+    slide: import.meta.env.BASE_URL + "04-explainability.pdf",
+    reading: '<a href="https://arxiv.org/abs/1703.01365" target="_blank">Integrated Gradients</a>',
   },
   {
     week: 3,
