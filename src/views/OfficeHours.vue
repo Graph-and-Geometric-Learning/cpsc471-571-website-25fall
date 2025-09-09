@@ -30,9 +30,13 @@ function time_number_to_string(time: number) {
 
 var recesses = [
     {
-        start: new Date("2024-03-08"),
-        end: new Date("2024-03-25")
+        start: new Date("2025-10-15"),
+        end: new Date("2025-10-19")
     },
+    {
+        start: new Date("2025-11-22"),
+        end: new Date("2025-11-30")
+    }
 ]
 
 function getRecurringEventsStartEnd(start: string, end: string, day: number, name: string, loc: string, zoom_link: string, start_time: number, end_time: number) {
@@ -72,30 +76,41 @@ function getRecurringEventsStartEnd(start: string, end: string, day: number, nam
 }
 
 function getRecurringEvents(day: number, name: string, loc: string, zoom_link: string, start_time: number, end_time: number) {
-    return getRecurringEventsStartEnd("2024-01-17", "2024-04-28", day, name, loc, zoom_link, start_time, end_time)
+    return getRecurringEventsStartEnd("2025-09-01", "2025-12-13", day, name, loc, zoom_link, start_time, end_time)
 }
 
 function getRexEvents() {
-    return getRecurringEvents(1, "Rex Ying", "17 Hillhouse, Room 332", "", 13.5, 14.5)
+    return getRecurringEvents(2, "Rex Ying", "17 Hillhouse, Room 332", "", 15, 16)
 }
 
 function getNgocEvents() {
-    return getRecurringEvents(2, "Ngoc Bui", "Dunham 431", "", 14, 15)
+    return getRecurringEvents(5, "Ngoc Bui", "Dunham 432", "", 14.5, 15.5)
 }
 
-function getJoshEvents() {
-    return getRecurringEvents(3, "Josh Beal", "AKW 512", "", 13, 14)
+function getJebEvents() {
+    return getRecurringEvents(4, "Jeb Cui", "17 Hillhouse, 3rd Floor", "", 10, 11)
 }
 
-function getDerekEvents() {
-    return getRecurringEvents(5, "Derek Dong", "WLH 113", "", 13, 14)
+function getFelixEvents() {
+    return getRecurringEvents(3, "Felix Zou", "17 Hillhouse, 2nd Floor", "", 13, 14)
+}
+
+function getLeyaoEvents() {
+    return getRecurringEvents(1, "Leyao Wang", "Dunham 401", "", 10, 11)
+}
+
+function getRishabhEvents() {
+    return getRecurringEvents(6, "Rishabh Anand", "Online", "https://yale.zoom.us/j/5194777058", 10, 11)
 }
 
 
 function getEvents() {
     return getRexEvents()
-            .concat(getJoshEvents())
-            .concat(getDerekEvents())
+        .concat(getNgocEvents())
+        .concat(getJebEvents())
+        .concat(getFelixEvents())
+        .concat(getLeyaoEvents())
+        .concat(getRishabhEvents())
 }
 
 
