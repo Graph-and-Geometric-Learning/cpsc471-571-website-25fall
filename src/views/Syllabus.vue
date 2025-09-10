@@ -99,6 +99,11 @@ var items: Item[] = [
     week: 3,
     date: "Thu, Sep 11",
     lecture: "Local Explainability",
+    slide: import.meta.env.BASE_URL + "05-surrogates.pdf",
+    reading: `
+    <a href="https://homes.cs.washington.edu/~marcotcr/blog/lime/" target="_blank">LIME</a><br/>
+    <a href="https://arxiv.org/abs/1705.07874" target="_blank">SHAP</a>
+    `
   },
   {
     week: 4,
