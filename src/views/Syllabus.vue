@@ -111,6 +111,11 @@ var items: Item[] = [
     lecture: "Explainability Evaluation",
     hw: import.meta.env.BASE_URL + "coding_hw1_placeholder.zip",
     new_api: true,
+    slide: import.meta.env.BASE_URL + "06-explainability_eval.pdf",
+    reading: `
+    <a href="https://arxiv.org/pdf/1710.10547.pdf" target="_blank">Explanations can also be vulnerable to adversarial attacks</a><br/>
+    <a href="https://arxiv.org/pdf/2005.00631.pdf" target="_blank">Evaluating Explanations</a>
+    `
   },
   {
     week: 4,
