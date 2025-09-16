@@ -109,7 +109,7 @@ var items: Item[] = [
     week: 4,
     date: "Tue, Sep 16",
     lecture: "Explainability Evaluation",
-    hw: import.meta.env.BASE_URL + "coding_hw1_placeholder.zip",
+    hw: import.meta.env.BASE_URL + "Programming Homework 1.zip",
     new_api: true,
     slide: import.meta.env.BASE_URL + "06-explainability_eval.pdf",
     reading: `
