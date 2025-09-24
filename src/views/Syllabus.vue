@@ -144,19 +144,19 @@ var items: Item[] = [
   {
     week: 6,
     date: "Thu, Oct 2",
-    lecture: "Poisoning Attacks and Defenses",
+    lecture: "In-class work session",
     hw: import.meta.env.BASE_URL + "coding_hw2_placeholder.zip",
     new_api: true,
   },
   {
     week: 7,
     date: "Tue, Oct 7",
-    lecture: "Exploratory Attacks and Defenses",
+    lecture: "Poisoning Attacks and Defenses",
   },
   {
     week: 7,
     date: "Thu, Oct 9",
-    lecture: "Verification and Robust Reinforecement Learning",
+    lecture: "Exploratory Attacks and Defenses",
     deadline: "[Due] Written Homework 2",
     hw: import.meta.env.BASE_URL + "written_hw3_placeholder.zip",
     new_api: true,
@@ -164,7 +164,7 @@ var items: Item[] = [
   {
     week: 8,
     date: "Tue, Oct 14",
-    lecture: "In-class work session",
+    lecture: "Guest Lecture 1",
   },
     {
     week: 8,
@@ -175,13 +175,13 @@ var items: Item[] = [
   {
     week: 9,
     date: "Tue, Oct 21",
-    lecture: "LLM Robustness",
+    lecture: "Verification and Robust Reinforecement Learning",
     deadline: "[Due] Coding Homework 2",
   },
   {
     week: 9,
     date: "Thu, Oct 23",
-    lecture: "Differential Privacy",
+    lecture: "LLM Robustness",
     deadline: "[Due] Written Homework 3",
     hw: import.meta.env.BASE_URL + "written_hw4_placeholder.zip",
     new_api: true,
@@ -189,35 +189,35 @@ var items: Item[] = [
   {
     week: 10,
     date: "Tue, Oct 28",
-    lecture: "LLM Privacy",
+    lecture: "Differential Privacy",
   },
   {
     week: 10,
     date: "Thu, Oct 30",
-    lecture: "Machine Unlearning",
+    lecture: "LLM Privacy",
     hw: import.meta.env.BASE_URL + "coding_hw3_placeholder.zip",
     new_api: true,
   },
   {
     week: 11,
     date: "Tue, Nov 4",
-    lecture: "Federated Learning",
+    lecture: "Machine Unlearning",
   },
   {
     week: 11,
     date: "Thu, Nov 6",
-    lecture: "Algorithmic Fairness in ML",
+    lecture: "Federated Learning",
   },
   {
     week: 12,
     date: "Tue, Nov 11",
-    lecture: "Fairness in LLMs",
+    lecture: "Algorithmic Fairness in ML",
     deadline: "[Due] Written Homework 4",
   },
   {
     week: 12,
     date: "Thu, Nov 13",
-    lecture: "Quantization",
+    lecture: "Fairness in LLMs",
     deadline: "[Due] Coding Homework 3",
   },
   {
@@ -229,7 +229,7 @@ var items: Item[] = [
   {
     week: 13,
     date: "Tue, Nov 18",
-    lecture: "Guest Lecture 1",
+    lecture: "Quantization",
   },
   {
     week: 13,
