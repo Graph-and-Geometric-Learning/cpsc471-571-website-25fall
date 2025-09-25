@@ -133,7 +133,7 @@ var items: Item[] = [
     week: 5,
     date: "Thu, Sep 25",
     lecture: "Introduction to Adversarial Attacks",
-    hw: import.meta.env.BASE_URL + "written_hw2_placeholder.zip",
+    hw: import.meta.env.BASE_URL + "HW2.pdf",
     new_api: true,
   },
   {
