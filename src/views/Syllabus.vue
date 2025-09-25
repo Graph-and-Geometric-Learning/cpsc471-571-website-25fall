@@ -127,6 +127,7 @@ var items: Item[] = [
     date: "Tue, Sep 23",
     lecture: "LLM Interpretability",
     deadline: "[Due] Written Homework 1",
+    slide: import.meta.env.BASE_URL + "07_mechanistic_Interpretability_for_LLMs.pdf",
   },
   {
     week: 5,
