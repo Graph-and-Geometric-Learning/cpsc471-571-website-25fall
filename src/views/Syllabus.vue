@@ -135,6 +135,11 @@ var items: Item[] = [
     lecture: "Introduction to Adversarial Attacks",
     hw: import.meta.env.BASE_URL + "HW2.pdf",
     new_api: true,
+    slide: import.meta.env.BASE_URL + "08_adversarial_evasion.pdf",
+    reading: `
+    <a href="https://arxiv.org/pdf/1712.07107.pdf" target="_blank">Adversarial Examples: Attacks and Defenses for Deep Learning</a><br/>
+    <a href="https://arxiv.org/pdf/2111.09961.pdf" target="_blank">Review of Adversarial Attacks and Defense</a>
+    `
   },
   {
     week: 6,
