@@ -163,9 +163,14 @@ var items: Item[] = [
     week: 7,
     date: "Thu, Oct 9",
     lecture: "Exploratory Attacks and Defenses",
-    deadline: "[Due] Written Homework 2",
     hw: import.meta.env.BASE_URL + "written_hw3_placeholder.zip",
     new_api: true,
+  },
+  {
+    week: 7,
+    date: "Fri, Oct 10",
+    lecture: "No class",
+    deadline: "[Due] Written Homework 2",
   },
   {
     week: 8,
