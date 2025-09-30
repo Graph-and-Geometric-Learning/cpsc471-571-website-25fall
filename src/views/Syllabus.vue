@@ -175,32 +175,27 @@ var items: Item[] = [
   {
     week: 8,
     date: "Tue, Oct 14",
-    lecture: "Guest Lecture 1",
-  },
-    {
-    week: 8,
-    date: "Fri, Oct 17",
-    lecture: "No class",
-    deadline: "[Due] Project proposal",
+    lecture: "Zoom Lecture (link TBA)",
   },
   {
     week: 9,
     date: "Tue, Oct 21",
     lecture: "Verification and Robust Reinforecement Learning",
-    deadline: "[Due] Coding Homework 2",
+    deadline: "[Due] Project proposal",
   },
   {
     week: 9,
     date: "Thu, Oct 23",
     lecture: "LLM Robustness",
-    deadline: "[Due] Written Homework 3",
-    hw: import.meta.env.BASE_URL + "written_hw4_placeholder.zip",
-    new_api: true,
+    deadline: "[Due] Coding Homework 2",
   },
   {
     week: 10,
     date: "Tue, Oct 28",
     lecture: "Differential Privacy",
+    deadline: "[Due] Written Homework 3",
+    hw: import.meta.env.BASE_URL + "written_hw4_placeholder.zip",
+    new_api: true,
   },
   {
     week: 10,
@@ -240,12 +235,12 @@ var items: Item[] = [
   {
     week: 13,
     date: "Tue, Nov 18",
-    lecture: "Quantization",
+    lecture: "Guest Lecture",
   },
   {
     week: 13,
     date: "Thu, Nov 20",
-    lecture: "Guest Lecture 2",
+    lecture: "Quantization",
   },
   {
     week: 15,
