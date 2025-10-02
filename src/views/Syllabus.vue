@@ -153,6 +153,8 @@ var items: Item[] = [
     lecture: "In-class work session",
     hw: import.meta.env.BASE_URL + "coding_hw2_placeholder.zip",
     new_api: true,
+    slide: import.meta.env.BASE_URL + "In-class work session.pdf",
+    reading: `<a href="${import.meta.env.BASE_URL + 'CPSC 4710-5710 GPU access.pdf'}" target="_blank">CPSC 4710-5710 GPU access</a><br/>`
   },
   {
     week: 7,
