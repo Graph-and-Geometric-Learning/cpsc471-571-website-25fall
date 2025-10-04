@@ -151,7 +151,7 @@ var items: Item[] = [
     week: 6,
     date: "Thu, Oct 2",
     lecture: "In-class work session",
-    hw: import.meta.env.BASE_URL + "coding_hw2_placeholder.zip",
+    hw: import.meta.env.BASE_URL + "Programming Homework 2.zip",
     new_api: true,
     slide: import.meta.env.BASE_URL + "In-class work session.pdf",
     reading: `<a href="${import.meta.env.BASE_URL + 'CPSC 4710-5710 GPU access.pdf'}" target="_blank">CPSC 4710-5710 GPU access</a><br/>`
