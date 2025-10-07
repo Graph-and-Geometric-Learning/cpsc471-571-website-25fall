@@ -160,6 +160,8 @@ var items: Item[] = [
     week: 7,
     date: "Tue, Oct 7",
     lecture: "Poisoning Attacks and Defenses",
+    slide: import.meta.env.BASE_URL + "09_defense_poison.pdf",
+    reading: `<a href="https://dl.acm.org/doi/10.1145/3551636" target="_blank">A Comprehensive Survey on Poisoning Attacks and Countermeasures in Machine Learning</a>`
   },
   {
     week: 7,
