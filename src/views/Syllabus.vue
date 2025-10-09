@@ -186,6 +186,8 @@ var items: Item[] = [
     date: "Tue, Oct 21",
     lecture: "Verification and Robust Reinforecement Learning",
     deadline: "[Due] Project proposal",
+    slide: import.meta.env.BASE_URL + "10_verification.pdf",
+    reading: `<a href="https://arxiv.org/abs/2206.12227" target="_blank">Adversarial Robustness of Deep Neural Networks: A Survey from a Formal Verification Perspective</a>`
   },
   {
     week: 9,
