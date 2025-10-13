@@ -20,7 +20,7 @@
               <td>{{ item.date }}</td>
               <td>
                 <p v-if="item.lecture == 'No class'" style="color:grey;">{{ item.lecture }}</p>
-                <p v-else>{{ item.lecture }}</p>
+                <p v-else v-html="item.lecture"></p>
                 <p v-if="item.event" style="color: green; font-size:11pt;">{{ item.event }}</p>
               </td>
               <td><a v-if="item.slide" :href="item.slide">[slide]</a><a v-if="item.record" :href="item.record">[record]</a></td>
@@ -179,7 +179,7 @@ var items: Item[] = [
   {
     week: 8,
     date: "Tue, Oct 14",
-    lecture: "Zoom Lecture (link TBA)",
+    lecture: "Zoom Lecture (<a href=\"https://yale.zoom.us/j/99111032117?from=addon\" target=\"_blank\">link</a>)",
   },
   {
     week: 9,
