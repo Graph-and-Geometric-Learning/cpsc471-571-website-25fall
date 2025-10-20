@@ -167,8 +167,6 @@ var items: Item[] = [
     week: 7,
     date: "Thu, Oct 9",
     lecture: "Exploratory Attacks and Defenses",
-    hw: import.meta.env.BASE_URL + "written_hw3_placeholder.zip",
-    new_api: true,
   },
   {
     week: 7,
@@ -181,6 +179,13 @@ var items: Item[] = [
     date: "Tue, Oct 14",
     lecture: "Zoom Lecture (<a href=\"https://yale.zoom.us/j/99111032117?from=addon\" target=\"_blank\">link</a>)",
   },
+  {
+    week: 9,
+    date: "Mon, Oct 20",
+    lecture: "No class",
+    hw: import.meta.env.BASE_URL + "HW3.pdf",
+    new_api: true,
+  }, 
   {
     week: 9,
     date: "Tue, Oct 21",
