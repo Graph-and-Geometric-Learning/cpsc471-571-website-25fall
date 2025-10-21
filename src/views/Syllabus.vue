@@ -177,7 +177,9 @@ var items: Item[] = [
   {
     week: 8,
     date: "Tue, Oct 14",
-    lecture: "Zoom Lecture (<a href=\"https://yale.zoom.us/j/99111032117?from=addon\" target=\"_blank\">link</a>)",
+    lecture: "Verification and Robust Reinforecement Learning: Zoom Lecture (<a href=\"https://yale.zoom.us/j/99111032117?from=addon\" target=\"_blank\">link</a>)",
+    slide: import.meta.env.BASE_URL + "10_verification.pdf",
+    reading: `<a href="https://arxiv.org/abs/2206.12227" target="_blank">Adversarial Robustness of Deep Neural Networks: A Survey from a Formal Verification Perspective</a>`
   },
   {
     week: 9,
@@ -189,26 +191,25 @@ var items: Item[] = [
   {
     week: 9,
     date: "Tue, Oct 21",
-    lecture: "Verification and Robust Reinforecement Learning",
+    lecture: "LLM Robustness",
     deadline: "[Due] Project proposal",
-    slide: import.meta.env.BASE_URL + "10_verification.pdf",
-    reading: `<a href="https://arxiv.org/abs/2206.12227" target="_blank">Adversarial Robustness of Deep Neural Networks: A Survey from a Formal Verification Perspective</a>`
+    slide: import.meta.env.BASE_URL + "11_llm_robustness.pdf",
   },
   {
     week: 9,
     date: "Thu, Oct 23",
-    lecture: "LLM Robustness",
+    lecture: "Differential Privacy",
     deadline: "[Due] Coding Homework 2",
   },
   {
     week: 10,
     date: "Tue, Oct 28",
-    lecture: "Differential Privacy",
+    lecture: "LLM Privacy",
   },
   {
     week: 10,
     date: "Thu, Oct 30",
-    lecture: "LLM Privacy",
+    lecture: "Machine Unlearning",
   },
   {
     week: 10,
@@ -219,22 +220,22 @@ var items: Item[] = [
   {
     week: 11,
     date: "Tue, Nov 4",
-    lecture: "Machine Unlearning",
+    lecture: "Federated Learning",
   },
   {
     week: 11,
     date: "Thu, Nov 6",
-    lecture: "Federated Learning",
-  },
-  {
-    week: 12,
-    date: "Tue, Nov 11",
     lecture: "Algorithmic Fairness in ML",
   },
   {
     week: 12,
-    date: "Thu, Nov 13",
+    date: "Tue, Nov 11",
     lecture: "Fairness in LLMs",
+  },
+  {
+    week: 12,
+    date: "Thu, Nov 13",
+    lecture: "Guest Lecture",
   },
   {
     week: 12,
@@ -245,12 +246,12 @@ var items: Item[] = [
   {
     week: 13,
     date: "Tue, Nov 18",
-    lecture: "Guest Lecture",
+    lecture: "Quantization",
   },
   {
     week: 13,
     date: "Thu, Nov 20",
-    lecture: "Quantization",
+    lecture: "Buffer",
   },
   {
     week: 15,
