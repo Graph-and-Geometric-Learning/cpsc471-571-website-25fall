@@ -204,16 +204,17 @@ var items: Item[] = [
     week: 10,
     date: "Tue, Oct 28",
     lecture: "Differential Privacy",
-    deadline: "[Due] Written Homework 3",
-    hw: import.meta.env.BASE_URL + "written_hw4_placeholder.zip",
-    new_api: true,
   },
   {
     week: 10,
     date: "Thu, Oct 30",
     lecture: "LLM Privacy",
-    hw: import.meta.env.BASE_URL + "coding_hw3_placeholder.zip",
-    new_api: true,
+  },
+  {
+    week: 10,
+    date: "Mon, Nov 3",
+    lecture: "No class",
+    deadline: "[Due] Written Homework 3",
   },
   {
     week: 11,
@@ -229,13 +230,11 @@ var items: Item[] = [
     week: 12,
     date: "Tue, Nov 11",
     lecture: "Algorithmic Fairness in ML",
-    deadline: "[Due] Written Homework 4",
   },
   {
     week: 12,
     date: "Thu, Nov 13",
     lecture: "Fairness in LLMs",
-    deadline: "[Due] Coding Homework 3",
   },
   {
     week: 12,
