@@ -194,12 +194,17 @@ var items: Item[] = [
     lecture: "LLM Robustness",
     deadline: "[Due] Project proposal",
     slide: import.meta.env.BASE_URL + "11_llm_robustness.pdf",
+    reading: `<a href="https://arxiv.org/pdf/2307.15043" target="_blank">Universal and Transferable Adversarial Attacks on Aligned Language Models</a><br/>
+    <a href="https://arxiv.org/pdf/2402.09283" target="_blank">Attacks, Defenses and Evaluations for LLM Conversation Safety: A Survey</a><br/>
+    <a href="https://www.arxiv.org/pdf/2510.06265" target="_blank">Large Language Models Hallucination: A Comprehensive Survey</a><br/>
+    <a href="https://arxiv.org/pdf/2312.10997" target="_blank">Retrieval-Augmented Generation for Large Language Models: A Survey</a>`
   },
   {
     week: 9,
     date: "Thu, Oct 23",
     lecture: "Differential Privacy",
     deadline: "[Due] Coding Homework 2",
+    slide: import.meta.env.BASE_URL + "12-privacy.pdf",
   },
   {
     week: 10,
