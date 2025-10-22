@@ -235,7 +235,7 @@ var items: Item[] = [
   {
     week: 12,
     date: "Thu, Nov 13",
-    lecture: "Guest Lecture",
+    lecture: "Quantization",
   },
   {
     week: 12,
@@ -246,17 +246,17 @@ var items: Item[] = [
   {
     week: 13,
     date: "Tue, Nov 18",
-    lecture: "Quantization",
+    lecture: "Guest Lecture by Prof. Arman Cohan on Security and Privacy of LLMs (In-person)",
   },
   {
     week: 13,
     date: "Thu, Nov 20",
-    lecture: "Buffer",
+    lecture: "Revise and Prepare for Exam",
   },
   {
     week: 15,
     date: "Tue, Dec 2",
-    lecture: "Revise and Prepare for Exam",
+    lecture: "Guest Lecture",
   },
   {
     week: 15,
