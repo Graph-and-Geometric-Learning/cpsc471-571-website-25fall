@@ -209,12 +209,13 @@ var items: Item[] = [
   {
     week: 10,
     date: "Tue, Oct 28",
-    lecture: "LLM Privacy",
+    lecture: "Machine Unlearning",
+    slide: import.meta.env.BASE_URL + "13-unlearning.pdf",
   },
   {
     week: 10,
     date: "Thu, Oct 30",
-    lecture: "Machine Unlearning",
+    lecture: "Federated Learning",
   },
   {
     week: 10,
@@ -225,7 +226,7 @@ var items: Item[] = [
   {
     week: 11,
     date: "Tue, Nov 4",
-    lecture: "Federated Learning",
+    lecture: "LLM Privacy",
   },
   {
     week: 11,
