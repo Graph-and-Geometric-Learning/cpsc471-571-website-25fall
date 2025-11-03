@@ -216,6 +216,7 @@ var items: Item[] = [
     week: 10,
     date: "Thu, Oct 30",
     lecture: "Federated Learning",
+    slide: import.meta.env.BASE_URL + "14-federated_learning.pdf",
   },
   {
     week: 10,
