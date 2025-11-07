@@ -246,12 +246,8 @@ var items: Item[] = [
     week: 12,
     date: "Thu, Nov 13",
     lecture: "Quantization",
-  },
-  {
-    week: 12,
-    date: "Fri, Nov 14",
-    lecture: "No class",
-    deadline: "[Due] Project Milestone",
+    hw: import.meta.env.BASE_URL + "HW4_placeholder.pdf",
+    new_api: true,
   },
   {
     week: 13,
@@ -262,6 +258,18 @@ var items: Item[] = [
     week: 13,
     date: "Thu, Nov 20",
     lecture: "Revise and Prepare for Exam",
+  },
+    {
+    week: 13,
+    date: "Fri, Nov 21",
+    lecture: "No class",
+    deadline: "[Due] Project Milestone and Coding Homework 3",
+  },
+  {
+    week: 15,
+    date: "Mon, Dec 1",
+    lecture: "No class",
+    deadline: "[Due] Written Homework 4",
   },
   {
     week: 15,
