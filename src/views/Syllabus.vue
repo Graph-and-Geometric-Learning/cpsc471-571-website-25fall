@@ -234,6 +234,8 @@ var items: Item[] = [
     date: "Thu, Nov 6",
     lecture: "Algorithmic Fairness in ML",
     slide: import.meta.env.BASE_URL + "15-fairness.pdf",
+    hw: import.meta.env.BASE_URL + "Programming Homework 3.zip",
+    new_api: true,
   },
   {
     week: 12,
