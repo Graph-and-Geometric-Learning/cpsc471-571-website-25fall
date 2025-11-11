@@ -267,12 +267,6 @@ var items: Item[] = [
   },
   {
     week: 15,
-    date: "Mon, Dec 1",
-    lecture: "No class",
-    deadline: "[Due] Written Homework 4",
-  },
-  {
-    week: 15,
     date: "Tue, Dec 2",
     lecture: "Guest Lecture",
   },
@@ -282,8 +276,14 @@ var items: Item[] = [
     lecture: "Exam",
   },
   {
+    week: 15,
+    date: "Fri, Dec 6",
+    lecture: "No class",
+    deadline: "[Due] Written Homework 4",
+  },
+  {
     week: 16,
-    date: "Thu, Dec 11",
+    date: "Fri, Dec 12",
     lecture: "No class",
     deadline: "[Due] Final project report (strict deadline)",
   },
