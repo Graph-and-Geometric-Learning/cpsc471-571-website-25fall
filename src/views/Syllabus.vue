@@ -245,9 +245,14 @@ var items: Item[] = [
   {
     week: 12,
     date: "Thu, Nov 13",
-    lecture: "Quantization",
-    hw: import.meta.env.BASE_URL + "HW4_placeholder.pdf",
+    lecture: "Efficiency",
+    hw: import.meta.env.BASE_URL + "HW4.pdf",
     new_api: true,
+    slide: import.meta.env.BASE_URL + "16-efficiency.pdf",
+    reading: `<a href="https://openreview.net/forum?id=l-PrrQrK0QR" target="_blank">Data Distillation</a><br/>
+    <a href="https://arxiv.org/abs/2112.00029" target="_blank">Sparse Training</a><br/>
+    <a href="https://arxiv.org/abs/2007.14062" target="_blank">Sparse Attention</a><br/>
+    <a href="https://arxiv.org/pdf/2106.08962.pdf" target="_blank">Deep Learning Efficiency Survey</a>`,
   },
   {
     week: 13,
